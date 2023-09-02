@@ -1,0 +1,61 @@
+.body{
+    height: 120vh;
+    width: 100vw;
+    background-color: black;
+    display: flex;
+}
+
+.right{
+    position: relative;
+    top: 50px;
+    right: 40px;
+    max-height: 50vh;
+    display: grid;
+    gap: 24px;
+    grid-template-columns: repeat(3,1fr);
+
+}
+
+.left{
+    width: 50vw;
+    height: 80vh;
+    padding-top: 10vh;
+    text-align: center;
+    padding-left: 5vw;
+    box-sizing: border-box;
+}
+
+.heading{
+    position: relative;
+    left: -180px;
+    font-size: 4rem;
+    color: #72DB73;
+    font-family: 'Single Day';
+}
+
+.subHeading{
+    position: relative;
+    top: 50px;
+    font-size: 4rem;
+    color: white;
+    text-align: left;
+    margin-top: 4vh;
+    font-family: 'Roboto';
+    font-weight: bolder;
+}
+
+.signUp{
+    color:white;
+    background:green;
+    border-radius:12px;
+    position:absolute;
+    left: 1150px;
+    top: 680px;
+    border: none;
+    padding: 12px;
+}
+
+ .error{
+    color: red;
+    font-size: 12px;
+}

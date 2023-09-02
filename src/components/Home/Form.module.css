@@ -1,0 +1,81 @@
+@import url('https://fonts.googleapis.com/css2?family=DM+Sans:opsz,wght@9..40,300&family=Roboto:wght@300&family=Single+Day&display=swap');
+.body{
+    background:  black;
+    color: white;
+    width: 50vw;
+    min-height: 100vh;
+    padding: 6vw;
+    box-sizing: border-box;
+    text-align: center;
+}
+.body p{
+    font-size: 1.2rem;
+    margin-top: 12px;
+    font-family: 'Dm Sans';
+   
+}
+
+.body .super{
+    position: relative;
+    top: -20px;
+    color:  #72DB73;
+    font-size: 4rem;
+    margin-bottom: 15px;
+    font-family: 'Single day';    
+}
+
+form input{
+    display: block;
+    margin: 16px auto;
+    padding: 12px;
+    width: 70%;
+    background-color:#292929;
+    border: none;
+    border-radius: 6px;
+    color: white;
+}
+
+form label{
+    display: flex;
+    flex-direction:row;
+    position: relative;
+    left: 60px;
+    gap: 10px;
+    margin-top: 12px;
+    padding: 8px 8px;
+}
+
+form label input{
+    margin: 0px;
+    padding: 0px;
+    width: 24px;
+}
+
+form button{
+    box-shadow: none;
+    width: 70%;
+    margin-top: 16px;
+    border-radius: 24px;
+    padding:10px 12px;
+    color: white;
+    background-color:  #72DB73;
+    border: none;
+}
+
+form .error{
+    color: red;
+    font-size: 12px;
+    position: relative;
+    text-align: left;
+    right: -80px;
+    
+}
+
+.footer p{
+    font-size: 14px;
+    color: #7C7C7C;
+    width: 70%;
+    margin: 12px auto;
+    text-align: left;
+    line-height: 1.2rem;
+}
