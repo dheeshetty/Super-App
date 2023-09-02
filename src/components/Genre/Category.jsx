@@ -22,25 +22,6 @@ const genres = [
         color:"#D7A4FF",
         image:<img style={{width:"160px", height:"120px"}}  src={drama}alt='dhee'/>
     },{
-        id:"Fantasy",
-        color:" #FF4ADE",
-        image:<img style={{width:"160px", height:"120px"}}  src={fantasy}alt='dhee'/>
-    },
-    {
-        id:"Fiction",
-        color:"#6CD061",
-        image:<img style={{width:"160px", height:"120px"}}  src={fiction}alt='dhee'/>
-    },
-    {
-        id:"Horror",
-        color:"#7358FF",
-        image:<img style={{width:"160px", height:"120px"}}  src={horror}alt='dhee'/>
-    },
-    {
-        id:"Music",
-        color:"#E61E32",
-        image:<img style={{width:"160px", height:"120px"}}  src={music}alt='dhee'/>
-    },{
         id:"Romance",
         color:"#11B800",
         image:<img style={{width:"160px", height:"120px"}}  src={romance}alt='dhee'/>
@@ -52,7 +33,26 @@ const genres = [
         id:"Western",
         color:"#912500",
         image:<img style={{width:"160px", height:"120px"}}  src={western}alt='dhee'/>
+    },{
+        id:"Horror",
+        color:"#7358FF",
+        image:<img style={{width:"160px", height:"120px"}}  src={horror}alt='dhee'/>
+    },{
+        id:"Fantasy",
+        color:" #FF4ADE",
+        image:<img style={{width:"160px", height:"120px"}}  src={fantasy}alt='dhee'/>
+    },{
+        id:"Music",
+        color:"#E61E32",
+        image:<img style={{width:"160px", height:"120px"}}  src={music}alt='dhee'/>
+    },
+    {
+        id:"Fiction",
+        color:"#6CD061",
+        image:<img style={{width:"160px", height:"120px"}}  src={fiction}alt='dhee'/>
     }
+    
+   
 ]
 const Category = ()=>{
     const [categories, setCategories] = useState([])
